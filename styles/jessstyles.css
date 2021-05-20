@@ -1,6 +1,11 @@
 body 
     {background-color:#efcccc;}
 
-    p {
+p {
     color:blue;
+}
+
+a {
+    color:rgb(255, 0, 119);
+    background-color: black;
 }
