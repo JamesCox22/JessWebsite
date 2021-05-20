@@ -1,11 +1,13 @@
 body 
     {background-color:#efcccc;}
 
-p {
-    color:blue;
+#my-id {
+    color: green;
 }
-
-a {
-    color:rgb(255, 0, 119);
-    background-color: black;
+.my-class {
+    color: maroon;
+}
+h2 {
+    font-size: 45px;
+    font-family: "Great Vibes", sans-serif;
 }
