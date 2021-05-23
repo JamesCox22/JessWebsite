@@ -1,13 +1,24 @@
-body 
-    {background-color:#efcccc;}
+html {
+    background-color: #efcccc;
 
-#my-id {
+}
+#my-id1 {
+    color: green;
+
+}
+#my-id3 {
     color: green;
 }
 .my-class {
     color: maroon;
+
 }
 h2 {
-    font-size: 45px;
+    font-size: 50px;
     font-family: "Great Vibes", sans-serif;
+    color:black;
+}
+.my-class-font {
+    font-size: 75px;
+
 }
