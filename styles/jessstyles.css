@@ -6,21 +6,18 @@ html {
     color: green;
 
 }
-#my-id3 {
-    color: green;
-}
 .my-class {
     color: maroon;
 
 }
+.my-class-font {
+    font-size: 30px;
+
+}
 h2[id] {
-    font-size: 50px;
+    font-size: 45px;
     font-family: "Great Vibes", sans-serif;
     color:black;
-}
-.my-class-font {
-    font-size: 75px;
-
 }
 ul {
     list-style-type: none;
