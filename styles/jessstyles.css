@@ -1,6 +1,18 @@
 html {
-    background-color: #efcccc;
+    background-color: rgb(243, 134, 134);
 
+}
+body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #efcccc;
+    padding: 0 20px 20px 20px;
+    
+}
+img {
+    display: block;
+    margin: 0 0;
+    border-radius: 50%;
 }
 #my-id1 {
     color: green;
@@ -8,7 +20,7 @@ html {
 }
 #my-id2 {
     color: purple;
-    
+
 }
 .my-class {
     color: maroon;
@@ -22,6 +34,10 @@ h2[id] {
     font-size: 45px;
     font-family: "Great Vibes", sans-serif;
     color:black;
+    margin: 0;
+    padding: 20px 0;
+    color: black;
+    
 }
 h2[id2] {
     font-size: 45px;
