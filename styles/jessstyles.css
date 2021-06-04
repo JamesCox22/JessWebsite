@@ -15,10 +15,10 @@ img {
     border-radius: 50%;
 }
 footer {
-    display: float;
+    display: flex;
     justify-content: center;
     padding: 5px;
-    background-color: rgb(243, 134, 134);
+    background-color: rgb(243, 134, 134);;
     color:blue;
 }
 #my-id1 {
