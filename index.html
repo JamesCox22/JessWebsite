@@ -3,8 +3,6 @@
     <head>
         <title>Jessica Cox</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link href="styles/jessstyles.css" rel="stylesheet">        
         <script src="main.js" defer></script>
         <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -15,45 +13,36 @@
     </head>
     <body>
         <header>
-            <nav class="custom-nav navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><h2 id="id">Jessica Cox</h2></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      <a class="nav-link" href="https://www.instagram.com/mrsjesscox/" title="More about me!">Meet Jess</a>
-                      <a class="nav-link" href="#" title="Book a discovery call!">Work With Me</a>
-                      <a class="nav-link" href="#" title="Contact info!">Contact</a>
-                    </div>
-                  </div>
-                </div>
-            </nav>
+            <div style="width:100%; padding:5px;"> 
+                <h2 id="id">Jessica Cox</h2>
+                <ul>
+                    <li><a href="#" onclick="togglePage4()" title="Contact info!">Contact</a></li> 
+                    <li><a href="#" onclick="togglePage3()" title="Book a discovery call!">Work With Me</a></li>
+                    <li><a href="#" onclick="togglePage2()" title="More about me!">Meet Jess</a></li>
+                    <li><a href="#" onclick="togglePage1()" title="Back to the Homepage!">Home</a></li>
+                </ul>
+            </div>
         </header>
         <div>    
-            <a href="https://www.facebook.com/jessica.feltham" width="300" height="300">
+            <a href="https://www.facebook.com/jessica.feltham">
                 <img src="images/Jessprofileimage.jpeg" width="300" height="300" alt="Jessica Cox Life Coach">
             </a>
         
         </div>
-        <div>    
+        <div id="Home">    
             <p> My name is <strong>Jessica Cox</strong> and I am a <strong>Certified Life Coach.</strong></p>
         </div>    
-        <div>
-            <p id="my-id1" class="my-class-font"> Sample paragraph 1</p>
+        <div id="Meet Jess">
+            <p> Hi! My name is Jessica Robyn Cox!</p>
         </div>
-        <div>
-            <p class="my-class my-class-font"> Sample paragraph 2</p>
+        <div id="Work With Me">
+            <p> I am currently accepting applications for new clients. If you would like an opportunity...</p>
         </div>
-        <div>
-            <p id="my-id2" class="my-class-font"> Sample paragraph 3</p>
+        <div id="Contact">
+            <p> Here is my number 780-555-2139</p>
         </div>
         <footer>
             <p>© 2021 Jamtec</p>
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>    
-        <script src="scripts/main.js"></script> 
     </body>
 </html>
