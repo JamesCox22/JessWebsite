@@ -1,38 +1,32 @@
-// global scope
-    var page1 = document.getElementById("Home")
-    var page2 = document.getElementById("Meet Jess")
-    var page3 = document.getElementById("Work With Me")    ​
-    var page4 = document.getElementById("Contact")    ​
-            
-function togglePage1() {
-    // local scope
-    var x = 10
-    ​
-    page1.style.display = "block"
-    page2.style.display = "none"
-    page3.style.display = "none"
-    page4.style.display = "none"    ​
-    }
-    ​
-function toggelPage2() {
-    ​
-    page2.style.display = "block"
-    page1.style.display = "none"
-    ​page3.style.display = "none"
-    page4.style.display = "none"
+var home = document.getElementById("home")
+var meetJess = document.getElementById("meetJess")
+var workWithMe = document.getElementById("workWithMe")
+var contact = document.getElementById("contact")
 
-    }
-function togglePage3() {
-                    ​
-    page3.style.display = "block"
-    page1.style.display = "none"
-    page2.style.display = "none"
-    page4.style.display = "none"    ​
-    }
-function togglePage4() {
-                    ​
-    page4.style.display = "block"
-    page1.style.display = "none"
-    page2.style.display = "none"
-    page3.style.display = "none"    ​
-    }
+function visitHome(){
+    home.style.display = "block"
+    meetJess.style.display = "none"
+    workWithMe.style.display = "none"
+    contact.style.display = "none"
+}
+
+function visitMeetJess(){
+    meetJess.style.display = "block"
+    home.style.display = "none"
+    workWithMe.style.display = "none"
+    contact.style.display = "none"
+}
+
+function visitWorkWithMe(){
+    workWithMe.style.display = "block"
+    meetJess.style.display = "none"
+    home.style.display = "none"
+    contact.style.display = "none"
+}
+
+function visitContact(){
+    contact.style.display = "block"
+    home.style.display = "none"
+    workWithMe.style.display = "none"
+    meetJess.style.display = "none"
+}
