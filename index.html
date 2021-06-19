@@ -1,51 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Jessica Cox</title>
-        <meta charset="utf-8">
-        <link href="styles/jessstyles.css" rel="stylesheet">        
-        <link href="https://fonts.gstatic.com" rel="preconnect">
-        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-        <meta name="author" content="James Cox">
-        <meta name="description" content="This is a buisness website for 'Jessica Cox Life Coach' it is a place for potential clients to learn more about Jessica and get into contact with her.">
+  <head>
+    <title>Jessica Cox</title>
+    <meta charset="utf-8">
+    <script src="scripts/main.js" defer></script>
+    <link href="styles/jessstyles.css" rel="stylesheet">        
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <meta name="author" content="James Cox">
+    <meta name="description" content="This is a buisness website for 'Jessica Cox Life Coach' it is a place for potential clients to learn more about Jessica and get into contact with her.">
         
-    </head>
-    <body>
-        <script src="scripts/main.js" defer></script>        
-        <header>
-            <div style="width:100%; padding:5px;"> 
-                <h2 id="id">Jessica Cox</h2>
-                <ul>
-                    <li><a href="#" onclick="visitContact()" title="Contact info!">Contact</a></li> 
-                    <li><a href="#" onclick="visitWorkWithMe()" title="Book a discovery call!">Work With Me</a></li>
-                    <li><a href="#" onclick="visitMeetJess()" title="More about me!">Meet Jess</a></li>
-                    <li><a href="#" onclick="visitHome()" title="Back to the Homepage!">Home</a></li>
-                </ul>
-            </div>
-        </header>
-        <div>    
-            <a href="https://www.facebook.com/jessica.feltham">
-                <img src="images/Jessprofileimage.jpeg" width="300" height="300" alt="Jessica Cox Life Coach">
-            </a>
+  </head>
+  <body>
+    <header>
+      <div style="width:100%; padding:5px;"> 
+        <h2 id="id">Jessica Cox</h2>
+          <ul>
+            <li><a href="#" onclick="visitContact()" title="Contact info!">Contact</a></li> 
+            <li><a href="#" onclick="visitWorkWithMe()" title="Book a discovery call!">Work With Me</a></li>
+            <li><a href="#" onclick="visitMeetJess()" title="More about me!">Meet Jess</a></li>
+            <li><a href="#" onclick="visitHome()" title="Back to the Homepage!">Home</a></li>
+          </ul>
+      </div>
+    </header>
+      <div>    
+        <a href="https://www.facebook.com/jessica.feltham">
+          <img src="images/Jessprofileimage.jpeg" width="300" height="300" alt="Jessica Cox Life Coach">
+        </a>
+      </div>
+      
+      <div id="home">    
+        <p> My name is <strong>Jessica Cox</strong> and I am a <strong>Certified Life Coach.</strong></p>
+      </div>    
+      
+      <div id="meetJess" style="display: none;">
+        <p> Hi! My name is Jessica Robyn Cox!</p>
+      </div>
+      
+      <div id="workWithMe" style="display: none;">
+        <p> I am currently accepting applications for new clients...</p>
+      </div>
+      
+      <div id="contact" style="display: none;">
+        <p> Here is my number 780-555-2139</p>
+      </div>
+    <footer>
+      <p>© 2021 Jamtec</p>
+    </footer>
         
-        </div>
-            
-        
-        <div id="home">    
-            <p> My name is <strong>Jessica Cox</strong> and I am a <strong>Certified Life Coach.</strong></p>
-        </div>    
-        <div id="meetJess" style="display: none;">
-            <p> Hi! My name is Jessica Robyn Cox!</p>
-        </div>
-        <div id="workWithMe" style="display: none;">
-            <p> I am currently accepting applications for new clients. If you would like an opportunity...</p>
-        </div>
-        <div id="contact" style="display: none;">
-            <p> Here is my number 780-555-2139</p>
-        </div>
-        <footer>
-            <p>© 2021 Jamtec</p>
-        </footer>
-        
-    </body>
+  </body>
 </html>
