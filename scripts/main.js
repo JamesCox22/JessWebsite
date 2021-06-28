@@ -1,7 +1,7 @@
-var home = document.getElementById("home")
-var meetJess = document.getElementById("meetJess")
-var workWithMe = document.getElementById("workWithMe")
-var contact = document.getElementById("contact")
+const home = document.getElementById("home")
+const meetJess = document.getElementById("meetJess")
+const workWithMe = document.getElementById("workWithMe")
+const contact = document.getElementById("contact")
 
 function visitHome(){
     home.style.display = "block"
