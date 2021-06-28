@@ -1,3 +1,5 @@
+"use strict";
+
 const home = document.getElementById("home")
 const meetJess = document.getElementById("meetJess")
 const workWithMe = document.getElementById("workWithMe")
