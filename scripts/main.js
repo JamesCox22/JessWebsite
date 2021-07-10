@@ -6,29 +6,21 @@ const workWithMe = document.getElementById("workWithMe")
 const contact = document.getElementById("contact")
 
 function visitHome(){
-    home.style.display = "block"
-    meetJess.style.display = "none"
-    workWithMe.style.display = "none"
-    contact.style.display = "none"
+    page.innerHTML = "<p>My name is <strong>Jessica Cox</strong> and I am a Certified Life Coach.</p>"
+  
 }
 
 function visitMeetJess(){
-    meetJess.style.display = "block"
-    home.style.display = "none"
-    workWithMe.style.display = "none"
-    contact.style.display = "none"
+    page.innerHTML = "<p>Hi! My name is Jessica Robyn Cox!</p>"
+  
 }
 
 function visitWorkWithMe(){
-    workWithMe.style.display = "block"
-    meetJess.style.display = "none"
-    home.style.display = "none"
-    contact.style.display = "none"
+    page.innerHTML = "<p>I am currently accepting applications for new clients...</p>"
+    
 }
 
 function visitContact(){
-    contact.style.display = "block"
-    home.style.display = "none"
-    workWithMe.style.display = "none"
-    meetJess.style.display = "none"
+    page.innerHTML = "<p>Here is my number 780-555-2139</p>"
+  
 }
