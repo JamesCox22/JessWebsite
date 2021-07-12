@@ -5,7 +5,7 @@ const meetJess = document.getElementById("meetJess")
 const workWithMe = document.getElementById("workWithMe")
 const contact = document.getElementById("contact")
 
-function visitHome(){
+function getContent(Home) {
     page.innerHTML = "<p>My name is <strong>Jessica Cox</strong> and I am a Certified Life Coach.</p>"
   
 }
@@ -23,4 +23,4 @@ function visitWorkWithMe(){
 function visitContact(){
     page.innerHTML = "<p>Here is my number 780-555-2139</p>"
   
-}
+  }
