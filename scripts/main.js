@@ -3,10 +3,10 @@
 function getContent(pageId) {
   switch (pageId) {
     case 'Home':
-      page.innerHTML = "<p>My name is <strong>Jessica Cox</strong> and I am a <strong>Certified Life Coach!</strong>"
+      page.innerHTML = "<p>My name is Jessica Cox and I am a Certified Confidence and Success Coach!</p>"
       break;
     case 'MeetJess':
-      page.innerHTML = "<p>Hi! My name is Jessica Robyn Cox!</p>"
+      page.innerHTML = "<p>Hi! My name is Jessica Cox! I am a Jay Shetty Certified Confidence and Success Coach. I help unfulfilled women, who want more in life, to step into their confidence and create success on their own terms.</p>"
       break;
     case 'WorkWithMe':
       page.innerHTML = "<p>I am currently accepting applications for new clients...</p>"
