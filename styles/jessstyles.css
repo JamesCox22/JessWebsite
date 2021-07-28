@@ -50,6 +50,6 @@ h2[id] {
 }
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 10fr;
   grid-gap: 20px;
 }
